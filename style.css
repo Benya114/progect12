@@ -1,0 +1,72 @@
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Заголовок */
+.header {
+  background-color: #0d6efd; /* стильный синий */
+  padding: 20px;
+  text-align: center;
+}
+.title {
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Основная сетка */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Каждый блок */
+.item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 200px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.item:hover {
+  transform: scale(1.05);
+}
+
+/* Область для картинки */
+.img-placeholder {
+  background-color: #ccc;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #555;
+  border-radius: 4px;
+}
+
+/* Тексты внутри блоков */
+.text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Подвал сайта */
+.footer {
+  background-color: #0d6efd;
+  padding: 15px;
+  text-align: center;
+}
+.footer-text {
+  color: #fff;
+  margin: 0;
+}
