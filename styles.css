@@ -70,3 +70,10 @@ body {
   color: #fff;
   margin: 0;
 }
+
+/* Стиль для дополнительного раздела снизу */
+.extra-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
